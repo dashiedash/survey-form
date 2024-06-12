@@ -24,10 +24,10 @@
 
 12. [x] Inside the `form` element, you should have a `select` dropdown element with an `id` of `dropdown` and at least two options to choose from.
 
-13. [ ] Inside the `form` element, you can select an option from a group of at least two radio buttons that are grouped using the `name` attribute.
+13. [x] Inside the `form` element, you can select an option from a group of at least two radio buttons that are grouped using the `name` attribute.
 
-14. [ ] Inside the `form` element, you can select several fields from a series of checkboxes, each of which must have a `value` attribute.
+14. [x] Inside the `form` element, you can select several fields from a series of checkboxes, each of which must have a `value` attribute.
 
-15. [ ] Inside the `form` element, you are presented with a `textarea` for additional comments.
+15. [x] Inside the `form` element, you are presented with a `textarea` for additional comments.
 
-16. [ ] Inside the `form` element, you are presented with a `button` with `id` of `submit` to submit all the inputs.
+16. [x] Inside the `form` element, you are presented with a `button` with `id` of `submit` to submit all the inputs.
