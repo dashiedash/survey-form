@@ -10,11 +10,11 @@
 
 5. [x] Inside the `form` element, you are required to enter your email in an `input` field that has an `id` of `email`.
 
-6. [ ] If you enter an email that is not formatted correctly, you will see an HTML5 validation error.
+6. [x] If you enter an email that is not formatted correctly, you will see an HTML5 validation error.
 
 7. [x] Inside the `form`, you can enter a number in an `input` field that has an `id` of `number`.
 
-8. [ ] The `number` input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser).
+8. [x] The `number` input should not accept non-numbers, either by preventing you from typing them or by showing an HTML5 validation error (depending on your browser).
 
 9. [x] If you enter numbers outside the range of the number input, which are defined by the `min` and `max` attributes, you will see an HTML5 validation error.
 
