@@ -16,7 +16,6 @@
         </p>
       </section>
     </header>
-
     <main>
       <section>
         <form action="post" id="survey-form">
@@ -29,14 +28,7 @@
             <input type="email" name="email" id="email" required />
 
             <label for="age" id="age-label">Age (optional)</label>
-            <input
-              type="number"
-              name="age"
-              id="age"
-              min="12"
-              max="140"
-              required
-            />
+            <input type="number" name="age" id="age" min="12" max="140" />
           </fieldset>
           <fieldset>
             <legend>Preferences</legend>
@@ -58,8 +50,7 @@
                 name="cone"
                 id="wafer"
                 value="wafer"
-                required
-              />
+                required />
 
               <label for="sugar">Sugar</label>
               <input type="radio" name="cone" id="sugar" value="sugar" />
@@ -71,8 +62,7 @@
                 type="checkbox"
                 name="toppings"
                 id="sprinkles"
-                value="sprinkles"
-              />
+                value="sprinkles" />
 
               <label for="nuts">Nuts</label>
               <input type="checkbox" name="toppings" id="nuts" value="nuts" />
@@ -89,13 +79,11 @@
             id="additional-instructions"
             cols="30"
             rows="10"
-            placeholder="e.g., Send me your cutest ice cream maker."
-          ></textarea>
+            placeholder="e.g., Send me your cutest ice cream maker."></textarea>
           <input type="submit" value="Order Ice Cream" />
         </form>
       </section>
     </main>
-
     <footer>
       <section>
         <p class="copyright-info">
