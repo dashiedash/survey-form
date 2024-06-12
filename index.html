@@ -3,109 +3,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Survey Form</title>
+    <title>Ice Cream Form</title>
     <link rel="stylesheet" href="styles.css" type="text/css" />
   </head>
-
   <body>
     <header>
       <h1 id="title">Ice Cream Form</h1>
-
       <p id="description">
         This is my solution to the Survey Form certification project for
         freeCodeCamp's Responsive Web Design course.
       </p>
     </header>
-
     <main>
       <form action="post" id="survey-form">
         <fieldset>
           <legend>Personal Information</legend>
+          <label for="name" id="name-label">Name</label>
+          <input type="text" name="name" id="name" />
 
-          <label for="name" id="name-label">
-            Name
-            <input type="text" name="name" id="name" />
-          </label>
+          <label for="email" id="email-label">Email</label>
+          <input type="email" name="email" id="email" />
 
-          <label for="email" id="email-label">
-            Email
-            <input type="email" name="email" id="email" />
-          </label>
-
-          <label for="age" id="age-label">
-            Age (optional)
-            <input type="number" name="age" id="age" min="12" max="140" />
-          </label>
+          <label for="age" id="age-label">Age (optional)</label>
+          <input type="number" name="age" id="age" min="12" max="140" />
         </fieldset>
-
         <fieldset>
           <legend>Preferences</legend>
-
-          <label for="flavor">
-            <select name="flavor" id="dropdown">
-              <option value="chocolate">Chocolate</option>
-              <option value="vanilla">Vanilla</option>
-              <option value="strawberry">Strawberry</option>
-              <option value="blueberry">Blueberry</option>
-              <option value="matcha">Matcha</option>
-              <option value="mango">Mango</option>
-              <option value="coffee">Coffee</option>
-            </select>
-          </label>
-
+          <label for="flavor">Flavor</label>
+          <select name="flavor" id="flavor">
+            <option value="chocolate">Chocolate</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="matcha">Matcha</option>
+            <option value="mango">Mango</option>
+            <option value="coffee">Coffee</option>
+          </select>
           <fieldset>
             <legend>Cone</legend>
+            <label for="wafer">Wafer</label>
+            <input type="radio" name="cone" id="wafer" value="wafer" />
 
-            <label for="wafer"
-              >Wafer
-              <input type="radio" name="cone" id="wafer" value="wafer" />
-            </label>
-
-            <label for="sugar"
-              >Sugar
-              <input type="radio" name="cone" id="sugar" value="sugar" />
-            </label>
+            <label for="sugar">Sugar</label>
+            <input type="radio" name="cone" id="sugar" value="sugar" />
           </fieldset>
-
           <fieldset>
             <legend>Toppings</legend>
+            <label for="sprinkles">Sprinkles</label>
+            <input
+              type="checkbox"
+              name="toppings"
+              id="sprinkles"
+              value="sprinkles"
+            />
 
-            <label for="sprinkles"
-              >Sprinkles
-              <input
-                type="checkbox"
-                name="sprinkles"
-                id="sprinkles"
-                value="sprinkles"
-              />
-            </label>
+            <label for="nuts">Nuts</label>
+            <input type="checkbox" name="toppings" id="nuts" value="nuts" />
 
-            <label for="nuts"
-              >Nuts
-              <input type="checkbox" name="nuts" id="nuts" value="nuts" />
-            </label>
-
-            <label for="fudge"
-              >Fudge
-              <input type="checkbox" name="fudge" id="fudge" value="nuts" />
-            </label>
+            <label for="fudge">Fudge</label>
+            <input type="checkbox" name="toppings" id="fudge" value="fudge" />
           </fieldset>
         </fieldset>
-
-        <label for="additional-instructions">
-          <textarea
-            name="additional-instructions"
-            id=""
-            cols="30"
-            rows="10"
-            placeholder="e.g., Send me your cutest ice cream maker."
-          ></textarea>
-        </label>
-
+        <label for="additional-instructions">Additional Instructions</label>
+        <textarea
+          name="additional-instructions"
+          id="additional-instructions"
+          cols="30"
+          rows="10"
+          placeholder="e.g., Send me your cutest ice cream maker."
+        ></textarea>
         <input type="submit" value="Order Ice Cream" />
       </form>
     </main>
-
     <footer>
       <p class="copyright-info">
         &copy; 2024 by <a href="https://github.com/dashiedash">dashiedash</a>.
