@@ -46,7 +46,7 @@ form {
 }
 
 fieldset {
-  border: 2px solid rgb(0%, 0%, 0%, 0.25);
+  border: 1px solid rgb(0%, 0%, 0%, 0.25);
   border-radius: 0.5em;
   margin: 1em 0;
   padding: 1em;
@@ -54,4 +54,44 @@ fieldset {
 
 legend {
   font-size: 0.8em;
+}
+
+label {
+  margin: 1em 0.5em 1em 0;
+}
+
+input {
+  padding: 4px;
+  border: 1px solid rgb(0%, 0%, 0%, 0.2);
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0.25em 0 1.5em;
+}
+
+select {
+  padding: 4px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: unset;
+  display: inline-block;
+  margin-right: 2em;
+}
+
+textarea {
+  display: block;
+  margin: 0.5em 0;
+  width: 100%;
+  border: 1px solid rgb(0%, 0%, 0%, 0.2);
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  margin: 1em 0;
+  background: #ccd5ae;
+  text-transform: uppercase;
+  font-weight: bold;
 }
