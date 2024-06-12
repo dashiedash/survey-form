@@ -6,6 +6,11 @@
   border: 0;
 }
 
+/* Body */
+body {
+  background: #d4a373;
+}
+
 /* Headings */
 h1,
 h2,
