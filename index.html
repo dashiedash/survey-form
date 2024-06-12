@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <h1 id="title">Survey Form</h1>
+    <h1 id="title">Ice Cream Form</h1>
 
     <p id="description">
       This is my solution to the Survey Form certification project for
@@ -34,6 +34,72 @@
           <input type="number" name="age" id="age" min="12" max="140" />
         </label>
       </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="flavor">
+          <select name="flavor" id="dropdown">
+            <option value="chocolate">Chocolate</option>
+            <option value="vanilla">Vanilla</option>
+            <option value="strawberry">Strawberry</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="matcha">Matcha</option>
+            <option value="mango">Mango</option>
+            <option value="coffee">Coffee</option>
+          </select>
+        </label>
+
+        <fieldset>
+          <legend>Cone</legend>
+
+          <label for="wafer"
+            >Wafer
+            <input type="radio" name="cone" id="wafer" value="wafer" />
+          </label>
+
+          <label for="sugar"
+            >Sugar
+            <input type="radio" name="cone" id="sugar" value="sugar" />
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Toppings</legend>
+
+          <label for="sprinkles"
+            >Sprinkles
+            <input
+              type="checkbox"
+              name="sprinkles"
+              id="sprinkles"
+              value="sprinkles"
+            />
+          </label>
+
+          <label for="nuts"
+            >Nuts
+            <input type="checkbox" name="nuts" id="nuts" value="nuts" />
+          </label>
+
+          <label for="fudge"
+            >Fudge
+            <input type="checkbox" name="fudge" id="fudge" value="nuts" />
+          </label>
+        </fieldset>
+      </fieldset>
+
+      <label for="additional-instructions">
+        <textarea
+          name="additional-instructions"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="e.g., Send me your cutest ice cream maker."
+        ></textarea>
+      </label>
+
+      <input type="submit" value="Order Ice Cream" />
     </form>
   </body>
 </html>
